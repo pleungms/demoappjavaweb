@@ -22,7 +22,7 @@ public class Server {
 
   @RequestMapping("/")
   public String home() {
-    return "Hello World [Docker Container]";
+    return "Hello World [Docker Container] - on Azure";
   }
 
   public static void main(String[] args) {
