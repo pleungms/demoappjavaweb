@@ -30,7 +30,7 @@ public class Server {
 
 	@RequestMapping("/")
 	public String home() {
-		return "Hello World [Docker Container] - on Azure using Github abc";
+		return "Hello World [Docker Container] - on Azure using Github bc";
 	}
 
 	@GetMapping("/greeting")
